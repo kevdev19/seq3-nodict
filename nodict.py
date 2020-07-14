@@ -3,7 +3,7 @@
 Implementation of the NoDict assignment
 """
 
-__author__ = '???'
+__author__ = 'Kevin Blount'
 
 
 class Node:
