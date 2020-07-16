@@ -15,8 +15,7 @@ class Node:
         return
 
     def __repr__(self):
-        # Your code here
-        return
+        return f'{self.__class__.__name__}({self.key}, {self.value})'
 
     def __eq__(self, other):
         # Your code here
@@ -29,8 +28,7 @@ class NoDict:
         # Your code here
 
     def __repr__(self):
-        # Your code here
-        return
+        return f'{self.__class__.__name__}({self.key}, {self.value})'
 
     def add(self, key, value):
         # Your code here
