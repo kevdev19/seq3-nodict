@@ -28,7 +28,8 @@ class NoDict:
         # Your code here
 
     def __repr__(self):
-        return f'{self.__class__.__name__}({self.key}, {self.value})'
+        """Return a string representing the NoDict contents"""
+        return '\n'.join([f'{self.__class__.__name__}.{i}:{bucket}' for i, bucket in enumerate(self.buckets)])
 
     def add(self, key, value):
         # Your code here
